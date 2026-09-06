@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MamoBite Gizlilik Politikası</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #faf6ee;
+      --text: #2c2416;
+      --muted: #6b5f4d;
+      --accent: #c45c26;
+      --card: #fffdf8;
+      --border: #e8dfd0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+    header {
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 1.75rem;
+      line-height: 1.2;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .lang-switch {
+      margin-top: 12px;
+      font-size: 0.95rem;
+    }
+    .lang-switch a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .lang-switch a:hover { text-decoration: underline; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 20px;
+      margin-bottom: 16px;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.05rem;
+    }
+    p {
+      margin: 0 0 10px;
+      color: var(--text);
+    }
+    p:last-child { margin-bottom: 0; }
+    footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>MamoBite Gizlilik Politikası</h1>
+      <p class="meta">Last updated: 6 September 2025</p>
+      <p class="lang-switch"><a href="en/">English</a></p>
+    </header>
+    
+        <section>
+          <h2>1. Genel</h2>
+          <p>MamoBite, ebeveynlerin bebek beslenmesi için tarif keşfetmesine yardımcı olan bir mobil uygulamadır. Bu gizlilik politikası, uygulamayı kullandığınızda hangi verilerin işlendiğini ve nasıl korunduğunu açıklar.</p>
+<p>MamoBite bir hesap oluşturma veya giriş yapma gerektirmez. Kişisel verilerinizin büyük çoğunluğu yalnızca cihazınızda saklanır.</p>
+        </section>
+
+        <section>
+          <h2>2. Veri sorumlusu</h2>
+          <p>Veri sorumlusu: MamoBite</p>
+<p>İletişim: support@mamobite.app</p>
+        </section>
+
+        <section>
+          <h2>3. Cihazınızda saklanan veriler</h2>
+          <p>Aşağıdaki bilgiler yalnızca cihazınızda (yerel depolama) tutulur ve sunucularımıza aktarılmaz:</p>
+<p>• Bebek yaşı, alerjen ve beslenme tercihleri</p>
+<p>• Dil seçimi (Türkçe / İngilizce)</p>
+<p>• Favori tarifler ve tarif etkileşimleri</p>
+<p>• Günlük öneri geçmişi</p>
+<p>• Yapay zekâ oturum bilgileri (anonim oturum jetonu ve günlük kullanım kotası)</p>
+<p>Bu verileri Ayarlar ekranından sıfırlayabilir veya uygulamayı cihazınızdan kaldırarak silebilirsiniz.</p>
+        </section>
+
+        <section>
+          <h2>4. Sunucuda işlenen veriler</h2>
+          <p>Yapay zekâ destekli tarif önerilerini kullandığınızda, istekler Supabase üzerinde barındırılan bir Edge Function aracılığıyla işlenir. Bu süreçte:</p>
+<p>• Cihazınıza özgü anonim bir kurulum gizli anahtarı, kota takibi için tek yönlü olarak hashlenir; ham değer saklanmaz.</p>
+<p>• Tarif sıralama istekleri (ör. mevcut malzemeler, referans tarif, dil) yapay zekâ sağlayıcısına gönderilir.</p>
+<p>• İstek veya yanıt içerikleri kalıcı olarak saklanmaz.</p>
+<p>• Operasyonel günlüklerde yalnızca hashlenmiş oturum/IP önekleri, işlem türü, gecikme süresi ve token sayıları tutulur.</p>
+        </section>
+
+        <section>
+          <h2>5. Üçüncü taraf hizmetler</h2>
+          <p>• Supabase: uygulama altyapısı ve yapay zekâ API’sinin barındırılması.</p>
+<p>• Google Gemini: yapay zekâ destekli tarif sıralama (üretim ortamında). İstekler Google’ın gizlilik politikasına tabidir.</p>
+<p>MamoBite, reklam veya davranışsal izleme amaçlı üçüncü taraf analitik araçları kullanmaz.</p>
+        </section>
+
+        <section>
+          <h2>6. Çocukların gizliliği</h2>
+          <p>MamoBite, ebeveynler ve bakıcılar tarafından kullanılmak üzere tasarlanmıştır. Uygulama, 13 yaşın altındaki çocuklardan doğrudan kişisel bilgi toplamaz. Bebek yaşı ve alerjen bilgileri yalnızca tarif filtreleme amacıyla, ebeveyn/bakıcı tarafından girilir ve cihazda saklanır.</p>
+        </section>
+
+        <section>
+          <h2>7. Verilerin kullanım amacı</h2>
+          <p>Veriler yalnızca şu amaçlarla işlenir: tarif önerilerinin kişiselleştirilmesi, alerjen ve yaş uygunluğu filtreleri, yapay zekâ kotası yönetimi, hizmet güvenliği ve kötüye kullanımın önlenmesi.</p>
+<p>Verileriniz satılmaz ve reklam profillemesi için kullanılmaz.</p>
+        </section>
+
+        <section>
+          <h2>8. Saklama süresi</h2>
+          <p>Cihaz verileri, siz silene veya uygulamayı kaldırana kadar cihazınızda kalır. Sunucu tarafındaki anonim oturum jetonları yaklaşık 24 saat geçerlidir. Operasyonel günlükler, altyapı sağlayıcımızın standart saklama süreleriyle sınırlıdır.</p>
+        </section>
+
+        <section>
+          <h2>9. Haklarınız</h2>
+          <p>6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında, işlenen verilerinize ilişkin bilgi talep etme, düzeltme ve silme haklarına sahipsiniz. Cihazda saklanan verileri Ayarlar’dan sıfırlayabilirsiniz. Sunucu tarafı veriler için support@mamobite.app adresine yazabilirsiniz.</p>
+        </section>
+
+        <section>
+          <h2>10. Değişiklikler</h2>
+          <p>Bu politika güncellenebilir. Önemli değişikliklerde güncelleme tarihi bu sayfada yayımlanır. Uygulamayı kullanmaya devam etmeniz, güncellenmiş politikayı kabul ettiğiniz anlamına gelir.</p>
+        </section>
+    <footer>MamoBite · support@mamobite.app</footer>
+  </main>
+</body>
+</html>
