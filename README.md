@@ -1,31 +1,8 @@
-# MamoBite Privacy Policy
+# MamoBite GitHub Pages
 
-Public privacy policy pages for the [MamoBite](https://github.com/laegjarnstack/MamoBite) mobile app.
+Files:
+- index.html — Marketing URL
+- support.html — Support URL
+- privacy.html — Privacy Policy URL
 
-## Pages
-
-| Language | URL |
-|----------|-----|
-| Turkish (default) | `/` |
-| English | `/en/` |
-
-## GitHub Pages
-
-This repository is published with GitHub Pages from the `main` branch root.
-
-Live URL: https://laegjarnstack.github.io/mamobite-privacy/
-
-## Updating content
-
-Source of truth for policy text lives in the main MamoBite repo:
-
-`supabase/functions/privacy-policy/content.ts`
-
-Regenerate static HTML:
-
-```bash
-cd ../MamoBite
-npx tsx scripts/export-privacy-policy-html.ts
-```
-
-Then commit and push changes in this repository.
+Before publishing, replace support@mamobite.com with the real support email and verify the privacy text matches the production app/data flows.
